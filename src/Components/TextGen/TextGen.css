@@ -1,0 +1,107 @@
+.Gen-main {
+  border: black 4px solid;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: white;
+  /* margin: 3rem auto; */
+  /* margin: auto; */
+  width: 80vw;
+  /* border: red 2px solid; */
+}
+
+.Gen-heading {
+  color: crimson;
+  /* text-decoration: blue; */
+  /* border: 2px crimson solid; */
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+.Gen-subline {
+  opacity: 0.8;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.Gen-form {
+  /* font-weight: bold; */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  /* font-size: 2rem; */
+}
+
+.Gen-form-label {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Gen-form-input {
+  background-color: wheat;
+  padding-left: 5px;
+  font-size: x-large;
+  /* margin-bottom: px; */
+  border-radius: 4px;
+  border: transparent;
+  height: 2rem;
+  width: 4rem;
+}
+
+.Gen-form-btn {
+  background-color: white;
+  color: crimson;
+  border-radius: 5px;
+  border: transparent;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 7px;
+  /* height: 2rem; */
+  margin-left: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  animation: 2s ease 0s infinite normal none running bounce;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+.Gen-form-btn:hover {
+  color: white;
+  background-color: crimson;
+}
+
+.Gen-text-div {
+  font-weight: bold;
+  opacity: 0.5;
+  font-size: 1rem;
+  text-align: center;
+  /* width: 95vh; */
+  margin: 3rem auto;
+  padding-bottom: 25px;
+  /* margin-bottom: 25px; */
+}
+
+/* .Gen-text-div { */
+/* text-align: center; */
+/* } */
+
+@media screen and (min-width: 790px) {
+  .Gen-heading {
+    font-size: 4em;
+  }
+  .Gen-subline {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "image": "https://i.insider.com/5799f6efdd08954f578b4840?width=1136&format=jpeg",
+    "title": "Mark Shukkerburg",
+    "about": "Mark Elliot Zuckerberg is an American media magnate, internet entrepreneur, and philanthropist. He is known for co-founding Facebook, Inc. and serves as its chairman, chief executive officer, and controlling shareholder."
+  },
+  {
+    "id": 1,
+    "image": "https://static.toiimg.com/thumb/msid-75805310,width-1200,height-900,resizemode-4/.jpg",
+    "title": "Robert Downey Jr",
+    "about": "Robert John Downey Jr. is an American actor and producer. His career has been characterized by critical and popular success in his youth, followed by a period of substance abuse and legal troubles, before a resurgence of commercial success in middle age"
+  },
+  {
+    "id": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Mark_Kassen%2C_Tony_C%C3%A1rdenas_and_Chris_Evans_%28cropped%29.jpg",
+    "title": "Chris Evans",
+    "about": "Christopher Robert Evans is an American actor, best known for his role as Captain America in the Marvel Cinematic Universe series of films. Evans began his career with roles in television series, such as in Opposite Sex in 2000"
+  },
+  {
+    "id": 3,
+    "image": "https://assets.entrepreneur.com/content/3x2/2000/20200217104953-Ashish1.jpeg",
+    "title": "Ashish Chanchalani",
+    "about": "Ashish Chanchlani is a popular Indian YouTuber. He was born on 8th December 1993 in Ulhasnagar, Maharashtra, India. His YouTube channel name is Ashish Chanchlani Ki Vines. He started his channel on 6 July 2009."
+  },
+  {
+    "id": 4,
+    "image": "https://variety.com/wp-content/uploads/2021/03/Venom-Movie.jpg?w=1000",
+    "title": "Venom",
+    "about": "Venom is a fictional character appearing in American comic books published by Marvel Comics, commonly in association with Spider-Man. The character is a sentient alien symbiote with an amorphous, liquid-like form, who survives by bonding with a host, usually human."
+  }
+]

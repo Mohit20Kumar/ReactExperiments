@@ -1,0 +1,132 @@
+.lame-nav {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* background-color: aqua; */
+  background: azure;
+  /* width: 90vw; */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.lame-nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.lame-nav-header h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+  color: green;
+  font-weight: bolder;
+}
+
+.lame-nav-toggle {
+  color: green;
+  background: transparent;
+  border: transparent;
+  transition: all 0.3s;
+  font-size: 1.5rem;
+}
+
+.lame-nav-toggle:hover {
+  color: darkgreen;
+  transform: rotate(90deg);
+}
+
+.lame-nav-links a {
+  /* font-weight; */
+  color: black;
+  font-size: 1rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  letter-spacing: 2px;
+  display: block;
+  transition: 0.3s all;
+  padding: 0.5rem 1rem;
+}
+.lame-nav-links a:hover {
+  background: green;
+  color: white;
+  padding-left: 1.5rem;
+}
+.lame-nav-social {
+  display: none;
+}
+.lame-nav-links-container {
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.lame-nav-show-container {
+  height: 10rem;
+  /* background: azure; */
+}
+
+@media screen and (min-width: 800px) {
+  .lame-nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .lame-nav-header h2 {
+    /* font-family: Georgia, "Times New Roman", Times, serif; */
+    /* letter-spacing: 3px; */
+    /* color: green; */
+    /* position: absolute; */
+    /* left: 0; */
+    font-size: 1.5rem;
+
+    /* font-weight: bolder; */
+  }
+
+  .lame-nav-header {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding: 0rem;
+  }
+  .lame-nav-toggle {
+    display: none;
+  }
+  .lame-nav-links-container {
+    height: auto !important;
+  }
+  .lame-nav-links {
+    opacity: 0.8;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+  }
+  .lame-nav-links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .lame-nav-links a:hover {
+    padding: 0;
+    background: transparent;
+    color: green;
+  }
+  .lame-nav-social {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+  }
+
+  .lame-nav-social li {
+    /* display: flex; */
+    text-decoration: none;
+  }
+  .lame-nav-social a {
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    color: black;
+    transition: 0.3s all;
+  }
+  .lame-nav-social a:hover {
+    color: green;
+  }
+}

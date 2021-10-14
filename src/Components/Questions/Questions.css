@@ -1,0 +1,87 @@
+.Q-DIV {
+  display: flex;
+  /* align-content: center; */
+  /* align-items: center; */
+  justify-content: center;
+}
+.Q-flexbox-container {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  align-content: center;
+  align-items: flex-start;
+  padding: 2px;
+  border-radius: 15px;
+  background-color: white;
+  /* display: grid; */
+  width: 1000px;
+  min-height: 550px;
+  margin: 1em;
+}
+.Q-heading-flexitem {
+  text-align: center;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 2em 1em;
+  color: aliceblue;
+  background-color: black;
+  /* flex: 1; */
+  flex-shrink: 1;
+  /* display: flex; */
+  /* flex-basis: 0; */
+  flex-direction: row;
+}
+
+.Q-QDIV-flexitem {
+  /* text-align: center; */
+
+  /* padding: px; */
+  border-radius: 5px;
+  margin: 2em;
+  background-color: coral;
+  flex-grow: 2;
+  /* flex-basis: 0; */
+
+  display: flex;
+  flex-direction: column;
+}
+.QDIV-item {
+  border-radius: 5px;
+  /* display: flex; */
+  justify-content: space-between;
+  padding: 10px;
+  margin: 1em;
+  background-color: white;
+}
+
+.QDIV-item-flexbox {
+  align-items: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 5px;
+  cursor: pointer;
+}
+.QDIV-item-ans {
+  padding: 1px 5px;
+  /* display: none; */
+}
+
+@media (min-width: 992px) {
+  .Q-flexbox-container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+  }
+}
+
+#lol {
+  padding: 1px 7px;
+  border-radius: 50%;
+  background-color: coral;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}

@@ -1,0 +1,160 @@
+.lame-sidebar-app {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.lame-sidebar {
+  left: 0;
+  top: 0;
+  position: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  width: 450px;
+  height: 100vh;
+  background-color: rgb(34, 34, 34);
+
+  transition: 0.3s all;
+  /* z-index: 1; */
+}
+.lame-sidebar-main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.remove-sidebar-main {
+  /* transform: translateX(-100%); */
+  display: none;
+}
+
+.lame-sidebar-toggle {
+  top: 2rem;
+  left: 3rem;
+  cursor: pointer;
+
+  position: fixed;
+  padding: 2rem;
+  color: green;
+  background: transparent;
+  border: transparent;
+  transition: 0.3s all;
+  font-size: 3rem;
+}
+.lame-sidebar-toggle:hover {
+  color: darkgreen;
+  transform: rotate(360deg);
+}
+
+.lame-sidebar-cross {
+  cursor: pointer;
+  color: lightgreen;
+
+  background: transparent;
+  border: transparent;
+  transition: all 0.4s;
+  font-size: 2rem;
+}
+.lame-sidebar-cross:hover {
+  color: red;
+
+  transform: rotate(360deg);
+}
+.remove-sidebar {
+  transform: translateX(-100%);
+}
+
+.lame-sidebar-header {
+  font-size: xx-large;
+  letter-spacing: 0.2rem;
+  padding: 1rem;
+  /* margin: 2px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.lame-sidebar-links a {
+  /* font-size: 3rem; */
+  line-height: 80px;
+
+  color: white;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  letter-spacing: 2px;
+  display: block;
+  transition: 0.3s all;
+  padding: 0.5rem 1rem;
+}
+.lame-sidebar-links a:hover {
+  background: green;
+  color: white;
+  padding-left: 1.5rem;
+}
+.lame-sidebar-modal-toggle {
+  cursor: pointer;
+  font-size: 1.5rem;
+  background: white;
+  padding: 0.5rem;
+  border: none;
+  transition: 0.3s all;
+  border-radius: 0.2rem;
+}
+
+.lame-sidebar-modal-toggle:hover {
+  background: green;
+  margin-bottom: 0.5rem;
+  /* padding-bottom: 5px; */
+  color: white;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: lightgreen; 
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgba(72, 172, 72, 0.3);
+  display: grid;
+  place-items: center;
+  transition: 0.3s all;
+  visibility: visible;
+  /* z-index: -1; */
+}
+/* OPEN/CLOSE MODAL */
+
+.remove-modal {
+  transform: translateY(100%);
+}
+
+/* .show-modal { */
+/* visibility: visible; */
+/* z-index: 10; */
+/* } */
+.modal-container {
+  background: white;
+  border-radius: 5px;
+  width: 90vw;
+  height: 30vh;
+  max-width: 620px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.close-modal-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: green;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.close-modal-btn:hover {
+  color: red;
+  transform: rotate(360deg);
+}

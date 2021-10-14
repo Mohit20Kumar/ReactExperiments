@@ -1,0 +1,99 @@
+.heading-places {
+  border-top: 4px solid cyan;
+  border-radius: 15%;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 5em;
+  letter-spacing: 2px;
+  border-bottom: 4px solid cyan;
+  text-transform: uppercase;
+  /*   
+  margin: 15px;
+  padding: 15px;
+  font-size: xxx-large;
+  font-weight: 800; */
+}
+
+.flexbox-places-container {
+  flex: 0 1 1;
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexbox-places-item {
+  flex: 0 1 1;
+
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  background-color: aliceblue;
+  text-align: center;
+  width: 700px;
+  margin: 15px;
+  /* border: 3px solid black; */
+  border-radius: 5px;
+}
+
+.flex-box-places-item {
+  flex: 0 1 1;
+
+  overflow: hidden;
+  min-height: 400px;
+}
+
+.image-container {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  margin: 20px auto;
+}
+.peoples-img {
+  position: relative;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: cyan 0.5px dotted;
+}
+
+.h2myname-peoples {
+  border-bottom: 0.5px solid blue;
+  border-radius: 50%;
+
+  padding: 10px;
+  /* opacity: 0.5; */
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.arroww {
+  transition: 0.5s;
+  border: transparent;
+  /* border: black 2px solid; */
+  border-radius: 5px;
+  background-color: cyan;
+  color: white;
+  margin: 5px;
+  /* font-size: 15px; */
+  width: 30px;
+  padding: 4px;
+}
+.arroww:hover {
+  background-color: red;
+}
